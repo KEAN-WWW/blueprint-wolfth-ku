@@ -3,7 +3,6 @@ import pytest
 from wsgi import app
 
 
-
 @pytest.fixture(name="client")
 def create_client():
     """initialize a fixture test client for flask unit testing"""
