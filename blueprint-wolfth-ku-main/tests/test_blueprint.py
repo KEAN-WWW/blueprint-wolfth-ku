@@ -1,5 +1,5 @@
 """This is a test script to test flask application"""
-from wsgi import app
+from wsgi import tapp
 
 def test_bp_usage():
     """Test if there is blueprint registered"""

@@ -1,6 +1,6 @@
 """This is a test script to test flask application"""
 import pytest
-from wsgi import app
+from wsgi import tapp
 
 
 @pytest.fixture(name="client")

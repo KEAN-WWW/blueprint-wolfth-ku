@@ -1,6 +1,6 @@
 from application.app import init_app
 
-app = init_app()
+tapp = init_app()
 
 if __name__ == "__main__":
-    app.run(debug="True")
+    tapp.run(debug="True")
